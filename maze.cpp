@@ -199,7 +199,7 @@ int main()
         // Once a maze meets minimum carve count, show it
         if (final_count >= carve_count)
         {
-            system("clear"); // Clear console for Mac
+            system("CLS"); // Clear console
             maze.display();
 
             // Ask user if they want the solution displayed
